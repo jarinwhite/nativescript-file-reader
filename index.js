@@ -17,4 +17,4 @@ var FileReader = (function () {
     };
     return FileReader;
 }());
-exports.FileReader = FileReader;
+module.exports = FileReader;
