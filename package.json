@@ -1,0 +1,13 @@
+{
+  "author": {
+    "name": "Jarin White",
+    "email": "jarinwhite@gmail.com",
+    "url": "https://github.com/jarinwhite"
+  },
+  "dependencies": {},
+  "homepage": "https://github.com/jarinwhite/nativescript-file-reader",
+  "license": "MIT",
+  "main": "nativescript-file-reader.js",
+  "name": "nativescript-file-reader",
+  "version": "1.0.0"
+}
