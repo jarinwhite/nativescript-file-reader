@@ -1,11 +1,10 @@
 "use strict";
 var fs = require('file-system');
-var documents = fs.knownFolders.currentApp();
 var JsonReader = (function () {
     function JsonReader() {
     }
     JsonReader.readJSON = function (path) {
-        var jsonFile = documents.getFile(path);
+        var jsonFile = fs.File.fromPath(path);
         return new Promise(function (resolve, reject) {
             jsonFile.readText().then(function (content) {
                 var data = JSON.parse(content);
