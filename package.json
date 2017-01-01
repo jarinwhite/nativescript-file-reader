@@ -5,9 +5,9 @@
     "url": "https://github.com/jarinwhite"
   },
   "dependencies": {},
-  "homepage": "https://github.com/jarinwhite/nativescript-file-reader",
+  "homepage": "https://github.com/jarinwhite/nativescript-json-reader",
   "license": "MIT",
   "main": "index.js",
-  "name": "nativescript-file-reader",
+  "name": "nativescript-json-reader",
   "version": "1.0.0"
 }
