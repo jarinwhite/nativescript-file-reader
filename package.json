@@ -7,7 +7,7 @@
   "dependencies": {},
   "homepage": "https://github.com/jarinwhite/nativescript-file-reader",
   "license": "MIT",
-  "main": "nativescript-file-reader.js",
+  "main": "index.js",
   "name": "nativescript-file-reader",
   "version": "1.0.0"
 }
