@@ -15,6 +15,7 @@ var JsonReader = (function () {
             });
         });
     };
-    return FileReader;
+    return JsonReader;
 }());
+
 module.exports = JsonReader;
