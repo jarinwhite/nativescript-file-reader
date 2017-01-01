@@ -1,10 +1,10 @@
 "use strict";
 var fs = require('file-system');
 var documents = fs.knownFolders.currentApp();
-var FileReader = (function () {
-    function FileReader() {
+var JsonReader = (function () {
+    function JsonReader() {
     }
-    FileReader.readJSON = function (path) {
+    JsonReader.readJSON = function (path) {
         var jsonFile = documents.getFile(path);
         return new Promise(function (resolve, reject) {
             jsonFile.readText().then(function (content) {
@@ -17,4 +17,4 @@ var FileReader = (function () {
     };
     return FileReader;
 }());
-module.exports = FileReader;
+module.exports = JsonReader;
