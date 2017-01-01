@@ -1,4 +1,4 @@
-import * as fs from "file-system";
+const fs = require('file-system');
 let documents = fs.knownFolders.currentApp();
 
 export class FileReader {
